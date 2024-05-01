@@ -15,19 +15,23 @@ incrementButton.addEventListener('click', function() {
 });
 
 // Question 5: Why does the decrement button not work?
-document.getElementById('count-value').innerText = count;
+// The value is not correct
 decrementButton.addEventListener('click', function() {
     count--;
-    
+    document.getElementById('count-value').innerText = count;
 });
 
 // Question 6: Why does the reset function set the count to '0' as a string?
+//  It retrieves the element and sets its innerText property to the current value of count
 resetButton.addEventListener('click', function() {
     count = '0';
     document.getElementById('counter-value').innerText = count;
 });
 
 // Question 7: How can you monitor the value of count using breakpoints?
+// There is an option in the drop down box right after Hit Count for :Log Message:, and that message shows
+//  up in the debug console with a number next to it indicating how many times the log 
+//  point was hit.
 // Question 8: What is the scope of the count variable in DevTools?
 
 // Question 9: Use the Network tab to find out: Is the app.js file loaded successfully?
