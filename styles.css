@@ -6,6 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding-bottom: 20px;
 }
 
 .app {
@@ -17,5 +18,6 @@ body {
   /* Question 2: Why is the color not applying to the counter value? */
 
 /* This property is not widely supported for text color and might be intended for special emphasis effects. A better way to set the text color is to use the color property */
-  text-emphasis-color: #FF6347;
+  /* text-emphasis-color: #FF6347; */
+  color: #FF6347
 }
