@@ -1,4 +1,5 @@
 /* Question 1: Why is the counter value not centered? (vertically) */
+/*take up the entire height of the viewport.  */
 body {
   display: flex;
   justify-content: center;
@@ -14,5 +15,7 @@ body {
 #counter-value {
   font-size: 48px;
   /* Question 2: Why is the color not applying to the counter value? */
+
+/* This property is not widely supported for text color and might be intended for special emphasis effects. A better way to set the text color is to use the color property */
   text-emphasis-color: #FF6347;
 }
