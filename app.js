@@ -18,7 +18,7 @@ incrementButton.addEventListener('click', function() {
 // The value is not correct and it should be counter-value
 decrementButton.addEventListener('click', function() {
     count--;
-    document.getElementById('count-value').innerText = count;
+    document.getElementById('counter-value').innerText = count;
 });
 
 // Question 6: Why does the reset function set the count to '0' as a string?
@@ -34,6 +34,7 @@ resetButton.addEventListener('click', function() {
 //  up in the debug console with a number next to it indicating how many times the log 
 //  point was hit.
 // Question 8: What is the scope of the count variable in DevTools?
-
+// 0
 // Question 9: Use the Network tab to find out: Is the app.js file loaded successfully?
+// yes time is 3ms
 // Question 10: Use the Console to track errors. Are there any errors being thrown?
