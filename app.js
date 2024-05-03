@@ -34,8 +34,8 @@ resetButton.addEventListener('click', function() {
 //  up in the debug console with a number next to it indicating how many times the log 
 //  point was hit. Set the breakpoint on the event listener
 // Question 8: What is the scope of the count variable in DevTools?
-// 0
+// local
 // Question 9: Use the Network tab to find out: Is the app.js file loaded successfully?
-// yes time is 3ms
+// yes time is 3ms for style.cs, but not for app.js
 // Question 10: Use the Console to track errors. Are there any errors being thrown?
 // no
