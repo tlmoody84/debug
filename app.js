@@ -36,6 +36,6 @@ resetButton.addEventListener('click', function() {
 // Question 8: What is the scope of the count variable in DevTools?
 // local
 // Question 9: Use the Network tab to find out: Is the app.js file loaded successfully?
-// yes time is 3ms for style.cs, but not for app.js
+// yes time is 3ms for style.css, but did not load successfully for app.js
 // Question 10: Use the Console to track errors. Are there any errors being thrown?
 // no
